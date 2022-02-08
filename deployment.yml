@@ -10,4 +10,5 @@ jobs:
       - name: run dummy
         command: dbt run -m dummy
       - name: run all
+        command: dbt deps
         command: dbt run
